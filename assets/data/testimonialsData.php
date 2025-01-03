@@ -1,0 +1,18 @@
+<?php
+return [
+    [
+        'author' => 'L Park',
+        'text' => 'Excellent workmanship - highly recommended.  Tom came to us recently for the first time to replace a composite sink that was difficult to keep clean and was looking shabby.  He did an excellent job of swapping it for a nice new Franke stainless steel sink which we know from previous experience is easier to keep looking good.  The job involved some modification to the existing worktop and Tom tackled this with skill and efficiency as cutting was involved. The end result is first class and we are extremely pleased.  He also replaced a faulty and ill-fitting pop-up waste in the cloakroom.  He fitted the correct model which now fits and works properly.  He also replaced an ill-fitting toilet seat in an ensuite which is a massive improvement generally.  We highly recommend Tom.  He ticks all the boxes - he is reliable, courteous, skilled, versatile and tidy.  Our job from quote to completion was in just over a week.  His quote was reasonable and realistic and there were no hidden extras.  Top class in every respect - he was a pleasure to deal with.',
+        'rating' => 5
+    ],
+    [
+        'author' => 'L Park',
+        'text' => 'Excellent workmanship - highly recommended.  Tom came to us recently for the first time to replace a composite sink that was difficult to keep clean and was looking shabby.  He did an excellent job of swapping it for a nice new Franke stainless steel sink which we know from previous experience is easier to keep looking good.  The job involved some modification to the existing worktop and Tom tackled this with skill and efficiency as cutting was involved. The end result is first class and we are extremely pleased.  He also replaced a faulty and ill-fitting pop-up waste in the cloakroom.  He fitted the correct model which now fits and works properly.  He also replaced an ill-fitting toilet seat in an ensuite which is a massive improvement generally.  We highly recommend Tom.  He ticks all the boxes - he is reliable, courteous, skilled, versatile and tidy.  Our job from quote to completion was in just over a week.  His quote was reasonable and realistic and there were no hidden extras.  Top class in every respect - he was a pleasure to deal with.',
+        'rating' => 5
+    ],
+    [
+        'author' => 'L Park',
+        'text' => 'Excellent workmanship - highly recommended.  Tom came to us recently for the first time to replace a composite sink that was difficult to keep clean and was looking shabby.  He did an excellent job of swapping it for a nice new Franke stainless steel sink which we know from previous experience is easier to keep looking good.  The job involved some modification to the existing worktop and Tom tackled this with skill and efficiency as cutting was involved. The end result is first class and we are extremely pleased.  He also replaced a faulty and ill-fitting pop-up waste in the cloakroom.  He fitted the correct model which now fits and works properly.  He also replaced an ill-fitting toilet seat in an ensuite which is a massive improvement generally.  We highly recommend Tom.  He ticks all the boxes - he is reliable, courteous, skilled, versatile and tidy.  Our job from quote to completion was in just over a week.  His quote was reasonable and realistic and there were no hidden extras.  Top class in every respect - he was a pleasure to deal with.',
+        'rating' => 5
+    ] 
+];

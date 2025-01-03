@@ -1,0 +1,365 @@
+/* Reset and Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cormorant Garamond', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f9fa; /* Light background for a clean look */
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #007bff; /* Professional blue */
+    color: #fff;
+}
+
+.navbar a.navbar-brand span {
+    color: #007bff;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.navbar a.nav-link {
+    color: #007bff;
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding: 5px 15px;
+}
+
+.navbar a.nav-link:hover {
+    color: #3082d4; /* Lighter hover color */
+}
+
+.navbar .btn-primary {
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+/* Contact Info on Desktop */
+.navbar .d-lg-flex {
+    color: #007bff;
+    font-size: 0.9rem;
+}
+
+.navbar .d-lg-flex p {
+    margin: 0;
+    font-size: 0.85rem;
+}
+
+.navbar .d-lg-flex i {
+    margin-right: 5px;
+    color: #fff;
+}
+
+@media (max-width: 991px) {
+    .navbar .d-lg-flex {
+        display: none;
+    }
+
+    .navbar .navbar-toggler {
+        border: none;
+    }
+}
+
+/* Jumbotron Styling */
+.jumbotron {
+    background-color: #007bff;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* Carousel Styling */
+.carousel-item img {
+    width: 100%;
+    max-height: 500px; /* Desktop height limit */
+    object-fit: cover; /* Ensure images fill the container */
+}
+
+/* Carousel Caption Styling */
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #1f1d1d; /* Text color */
+    text-align: center;
+    width: 90%; /* Set width as a percentage for responsiveness */
+    max-width: 800px; /* Limit the maximum width */
+    padding: 15px;
+    background: linear-gradient(45deg, rgba(168, 169, 170, 0.8), rgba(228, 229, 230, 0.6)); /* Subtle gradient background */
+    border-radius: 10px; /* Rounded edges */
+    word-wrap: break-word; /* Break long words */
+    overflow-wrap: break-word; /* Ensure long unbroken strings wrap */
+    overflow: hidden; /* Prevent content overflow */
+    box-sizing: border-box; /* Include padding in width calculations */
+}
+
+/* Caption Title */
+.carousel-caption h5 {
+    font-size: 2rem; /* Default size for headings */
+    margin-bottom: 10px;
+    font-weight: normal; /* No bold text */
+}
+
+/* Caption Description */
+.carousel-caption p {
+    font-size: 1.2rem;
+    margin: 0;
+    font-weight: normal; /* No bold text */
+    line-height: 1.5; /* Proper spacing for readability */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .carousel-caption {
+        top: 60%; /* Adjust position for smaller screens */
+        max-width: 95%; /* Make the text box wider for small screens */
+        height: auto; /* Allow the text box to grow in height */
+        padding: 20px; /* Add more padding for readability */
+    }
+
+    .carousel-caption h5 {
+        font-size: 1.5rem; /* Reduce font size for smaller screens */
+    }
+
+    .carousel-caption p {
+        font-size: 1rem; /* Reduce description font size */
+        line-height: 1.4; /* Adjust line spacing */
+    }
+}
+
+@media (max-width: 576px) {
+    .carousel-caption {
+        top: 65%; /* Adjust position further for smaller screens */
+        max-width: 100%; /* Use full width */
+        height: auto; /* Allow for text to expand */
+        padding: 25px; /* Increase padding for readability */
+    }
+
+    .carousel-caption h5 {
+        font-size: 1.2rem; /* Further reduce font size */
+    }
+
+    .carousel-caption p {
+        font-size: 0.9rem; /* Smaller text for very small screens */
+        line-height: 1.3; /* Tighten line spacing */
+    }
+}
+
+/* Card Styling */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    color: #007bff;
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #007bff;
+    text-decoration: underline;
+}
+
+footer .text-primary {
+    color: #00d9ff !important; /* Bright teal for icons */
+}
+
+footer p {
+    margin-bottom: 0.5rem;
+}
+
+/* Button Styling */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+/* Utility Classes */
+.text-center {
+    text-align: center;
+}
+
+.container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* About Page Styling */
+.about-us h5 {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    color: #6c757d; /* Muted gray color */
+    letter-spacing: 1px;
+}
+
+.about-us h2 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.about-us p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.about-us .btn-outline-primary {
+    border: 2px solid #007bff;
+    color: #007bff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.about-us .btn-outline-primary:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+/* Testimonials Section */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.card p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
+}
+
+.card .fw-bold {
+    color: #007bff;
+}
+
+.text-warning {
+    font-size: 1rem;
+}
+/* Image Styling */
+.about-us img {
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* General Styling */
+.container h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 2rem;
+}
+
+.row.g-4 {
+    gap: 2rem;
+}
+
+/* Service Section Styling */
+img.img-fluid {
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h5 {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    color: #6c757d;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-size: 1.75rem;
+    color: #2c3e50;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+ul {
+    padding-left: 20px;
+    margin-bottom: 0;
+}
+
+ul li {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: #555;
+}
+
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .about-us h2 {
+        font-size: 2rem;
+    }
+
+    .about-us {
+        text-align: center;
+    }
+
+    .about-us img {
+        margin-top: 20px;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .row.align-items-center {
+        text-align: center;
+    }
+
+    img.img-fluid {
+        margin: 0 auto 1rem;
+    }
+    footer .text-center {
+        text-align: center !important;
+    }
+}
